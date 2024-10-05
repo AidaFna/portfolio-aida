@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <div className="p-5" id="project">
       <Container className="my-5">
-        <h2 className="fw-bold text-uppercase mb-5">My Projects</h2>
+        <h2 className="fw-bold text-primary text-uppercase mb-5">My Projects</h2>
         <Row className="g-4 mt-5">
           {projectItems.map((projects) => (
             <ProjectCard

@@ -1,12 +1,14 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import Logo from '../assets/images/logo-primary.jpg';
 
 const NavigationBar = () => {
   return (
     <Navbar expand="lg" fixed="top" className="bg-primary" data-bs-theme="dark">
       <Container>
-        <Navbar.Brand href="#" className="text-uppercase">
-          Aida Amrina
+        <Navbar.Brand href="#" className="mx-auto d-flex align-items-center">
+          <img alt="" src={Logo} height={40} className="d-inline-block align-top" />{' '}
+          <span className="text-uppercase ms-2 fs-4">Aida Amrina</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
