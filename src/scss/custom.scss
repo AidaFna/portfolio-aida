@@ -59,4 +59,14 @@ $primary: #524f81;
   display: flex;
 }
 
+.profile-img {
+  scale: 1;
+  transition: all 0.5s ease;
+}
+
+.profile-img:hover {
+  scale: 1.05;
+  transition: all 0.7s ease;
+}
+
 @import '~bootstrap/scss/bootstrap.scss';

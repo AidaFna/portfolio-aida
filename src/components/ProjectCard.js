@@ -10,16 +10,25 @@ const ProjectCard = (props) => {
           <Card.Title className="text-capitalized mb-4 fs-3">{props?.title ?? '-'}</Card.Title>
           <Card.Text>
             {props?.tags.map((tag) => (
-              <Button key={tag} style={{ cursor: 'default' }} className="mx-1" variant="secondary" size="sm" active>
+              <Button
+                key={tag}
+                style={{ cursor: 'default' }}
+                className="mx-1 mb-2"
+                variant="secondary"
+                size="sm"
+                active
+              >
                 #{tag}
               </Button>
             ))}
           </Card.Text>
           <Card.Text>{props?.desc ?? '-'}</Card.Text>
 
-          <Button className="shadow text-capitalized outline" variant="outline-primary">
-            View Project
-          </Button>
+          <a href={props?.link} className="text-decoration-none" target="_blank" rel="noreferrer">
+            <Button className="shadow text-capitalized outline" variant="outline-primary">
+              View Project
+            </Button>
+          </a>
         </Card.Body>
       </Card>
     </Col>

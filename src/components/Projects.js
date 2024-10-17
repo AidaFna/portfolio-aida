@@ -16,6 +16,7 @@ const Projects = () => {
               title={projects?.title}
               tags={projects?.tags}
               desc={projects?.desc}
+              link={projects?.link}
             ></ProjectCard>
           ))}
         </Row>
