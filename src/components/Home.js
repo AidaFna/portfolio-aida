@@ -12,10 +12,18 @@ const Home = () => {
             <h1 className="text-uppercase text-primary text-start lh-1 mb-5">
               Front End <br /> Web Developer
             </h1>
-            <Button className="mb-sm-5 mb-xs-5 mt-lg-5">See My Works</Button>
+            <Button className="mb-sm-5 mb-xs-5 mt-lg-5" href="#project">
+              See My Works
+            </Button>
           </Col>
           <Col lg={6}>
-            <img src={ProfileImg} alt="profile img" className="img-fluid rounded-circle shadow w-65 my-2"></img>
+            <div className="container">
+              <img
+                src={ProfileImg}
+                alt="profile img"
+                className="profile-img img-fluid rounded-circle shadow w-65 my-2"
+              ></img>
+            </div>
           </Col>
         </Row>
       </Container>

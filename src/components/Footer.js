@@ -30,7 +30,7 @@ const Footer = () => {
         </ul>
         <hr className="w-50 mx-auto"></hr>
         <p>
-          Copyright<img src={Copyright} height={24} className="mx-2"></img>Aida Amrina
+          Copyright<img alt="copyright" src={Copyright} height={24} className="mx-2"></img>Aida Amrina
         </p>
       </Container>
     </div>

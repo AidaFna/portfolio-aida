@@ -28,12 +28,12 @@ const Contact = () => {
         <ul className="list-unstyled center-position">
           <li className="me-3">
             <a href="https://www.linkedin.com/in/aidafna" target="_blank" rel="noreferrer">
-              <img src={LinkedIn} height={32} />
+              <img alt="linkedin" src={LinkedIn} height={32} />
             </a>
           </li>
           <li>
             <a href="https://github.com/AidaFna" target="_blank" rel="noreferrer">
-              <img src={Github} height={32} />
+              <img alt="github" src={Github} height={32} />
             </a>
           </li>
         </ul>
